@@ -1,6 +1,21 @@
-node_modules
-dist
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
 .env
-.env.local
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
 *.log
+npm-debug.log*
+
+# Local development
 .DS_Store
+.vscode/
